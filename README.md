@@ -82,7 +82,7 @@ sudo apt install -y nmap sqlmap python3 python3-pip
 pip3 install python-nmap requests urllib3
 
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/mrdos-attacked.git
+https://github.com/mododzypay33355-spec/Scanner-Nmap-SQLMap-RCE-SSRF-and-API-LFI-testing.git
 cd mrdos-attacked
 
 # Make scripts executable
@@ -249,7 +249,7 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 **MrDos**
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [@YOUR_USERNAME](https://github.com/mododzypay33355-spec)
 - Version: 2.0
 
 ---
