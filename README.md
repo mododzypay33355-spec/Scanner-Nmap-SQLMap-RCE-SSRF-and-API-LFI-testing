@@ -145,7 +145,7 @@ mrdos-attacked/
 │
 ├── dashboard_generator_fixed.py   # Terminal-style dashboard
 │
-├── START_FULL_WORKFLOW.sh         # Complete workflow
+├── START_SCAN.sh                  # Complete workflow
 ├── multi_target_scan.sh           # Multi-target scanner
 ├── mrdos_commands.sh              # Kill/clean/status
 │
