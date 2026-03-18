@@ -64,7 +64,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/mrdos-attacked.git
+https://github.com/mododzypay33355-spec/Scanner-Nmap-SQLMap-RCE-SSRF-and-API-LFI-testing.git
 cd mrdos-attacked
 
 # Run installer
