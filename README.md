@@ -67,8 +67,7 @@
 https://github.com/mododzypay33355-spec/Scanner-Nmap-SQLMap-RCE-SSRF-and-API-LFI-testing.git
 cd mrdos-attacked
 
-# Run installer
-sudo bash install_kali.sh
+
 ```
 
 ### Manual Installation
@@ -97,19 +96,11 @@ chmod +x *.py *.sh
 
 ```bash
 # Run complete scan
-bash START_FULL_WORKFLOW.sh target.com
+ ./START_SCAN.sh target.com
 
-# View dashboard
-firefox http://localhost:8888
+
 ```
 
-### Multi-Target Scan
-
-```bash
-bash multi_target_scan.sh target1.com target2.com target3.com
-```
-
----
 
 ## 📊 Architecture
 
@@ -159,7 +150,6 @@ mrdos-attacked/
 ├── mrdos_commands.sh              # Kill/clean/status
 │
 ├── README.md                      # This file
-└── install_kali.sh                # Kali installer
 ```
 
 ---
@@ -168,12 +158,7 @@ mrdos-attacked/
 
 ### Run Scan
 ```bash
-bash START_FULL_WORKFLOW.sh target.com
-```
-
-### View Dashboard
-```bash
-firefox http://localhost:8888
+./START_SCAN.sh target.com
 ```
 
 ### Monitor Logs
@@ -183,12 +168,12 @@ tail -f /tmp/mrdos_target.com/logs/terminal_*.log
 
 ### Kill All Scans
 ```bash
-bash mrdos_commands.sh kill
+bash START_SCAN.sh kill
 ```
 
 ### Clean Results
 ```bash
-bash mrdos_commands.sh clean
+bash START_SCAN.sh clean
 ```
 
 ---
